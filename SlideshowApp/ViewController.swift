@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var changeButton: UIButton! //再生/停止
     
     var timer: Timer!
-       var timer_sec: Float = 0
+    var timer_sec: Float = 0
        
     let imagename: [UIImage] = [
            UIImage(named: "spring.jpg")!,
