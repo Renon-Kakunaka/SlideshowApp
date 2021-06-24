@@ -13,6 +13,11 @@
 		72211524268250EC003D784F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72211522268250EC003D784F /* Main.storyboard */; };
 		72211526268250ED003D784F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72211525268250ED003D784F /* Assets.xcassets */; };
 		72211529268250ED003D784F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72211527268250ED003D784F /* LaunchScreen.storyboard */; };
+		7221153226825256003D784F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7221153126825256003D784F /* ResultViewController.swift */; };
+		72F1E1AE2684B10A00E18E39 /* spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F1E1AD2684B10A00E18E39 /* spring.jpg */; };
+		72F1E1B12684B10F00E18E39 /* summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F1E1B02684B10F00E18E39 /* summer.jpg */; };
+		72F1E1B42684B11300E18E39 /* autumn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F1E1B32684B11300E18E39 /* autumn.jpg */; };
+		72F1E1B72684B11700E18E39 /* winter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72F1E1B62684B11700E18E39 /* winter.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		72211525268250ED003D784F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72211528268250ED003D784F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7221152A268250ED003D784F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7221153126825256003D784F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		72F1E1AD2684B10A00E18E39 /* spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spring.jpg; sourceTree = "<group>"; };
+		72F1E1B02684B10F00E18E39 /* summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = summer.jpg; sourceTree = "<group>"; };
+		72F1E1B32684B11300E18E39 /* autumn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = autumn.jpg; sourceTree = "<group>"; };
+		72F1E1B62684B11700E18E39 /* winter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winter.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				7221151C268250EC003D784F /* AppDelegate.swift */,
 				7221151E268250EC003D784F /* SceneDelegate.swift */,
 				72211520268250EC003D784F /* ViewController.swift */,
+				7221153126825256003D784F /* ResultViewController.swift */,
 				72211522268250EC003D784F /* Main.storyboard */,
 				72211525268250ED003D784F /* Assets.xcassets */,
 				72211527268250ED003D784F /* LaunchScreen.storyboard */,
 				7221152A268250ED003D784F /* Info.plist */,
+				72F1E1AD2684B10A00E18E39 /* spring.jpg */,
+				72F1E1B02684B10F00E18E39 /* summer.jpg */,
+				72F1E1B32684B11300E18E39 /* autumn.jpg */,
+				72F1E1B62684B11700E18E39 /* winter.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -124,7 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F1E1AE2684B10A00E18E39 /* spring.jpg in Resources */,
 				72211529268250ED003D784F /* LaunchScreen.storyboard in Resources */,
+				72F1E1B12684B10F00E18E39 /* summer.jpg in Resources */,
+				72F1E1B42684B11300E18E39 /* autumn.jpg in Resources */,
+				72F1E1B72684B11700E18E39 /* winter.jpg in Resources */,
 				72211526268250ED003D784F /* Assets.xcassets in Resources */,
 				72211524268250EC003D784F /* Main.storyboard in Resources */,
 			);
@@ -140,6 +159,7 @@
 				72211521268250EC003D784F /* ViewController.swift in Sources */,
 				7221151D268250EC003D784F /* AppDelegate.swift in Sources */,
 				7221151F268250EC003D784F /* SceneDelegate.swift in Sources */,
+				7221153226825256003D784F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
