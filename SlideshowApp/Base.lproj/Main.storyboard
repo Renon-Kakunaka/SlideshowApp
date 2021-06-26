@@ -30,7 +30,7 @@
                                 <rect key="frame" x="172" y="424" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yws-hC-fnr"/>
+                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ol0-C8-nej"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p36-YW-PzQ">
@@ -63,7 +63,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backButton" destination="qi0-hT-rmI" id="dpw-3F-YIk"/>
                         <outlet property="changeButton" destination="IkJ-K1-pdd" id="d2I-Kf-nNA"/>
+                        <outlet property="goButton" destination="p36-YW-PzQ" id="rvj-Fh-P8J"/>
                         <outlet property="season" destination="Khq-1y-3Ez" id="wZg-P8-dN1"/>
                     </connections>
                 </viewController>
@@ -74,7 +76,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+            <point key="canvasLocation" x="18.399999999999999" y="77.58620689655173"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="iIx-HK-Y6k">

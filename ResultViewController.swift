@@ -17,6 +17,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         
     bigimage.image = show
+        
 
         // Do any additional setup after loading the view.
     }
