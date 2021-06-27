@@ -83,7 +83,8 @@ class ViewController: UIViewController {
     goButton.isEnabled = true //進むボタンタップ可能
     backButton.isEnabled = true //戻るボタンタップ可能
     }
- }
+        
+  }
     
     @objc func changename() {
         changeimgno += 1 //次の画像をスライドショー
@@ -91,21 +92,24 @@ class ViewController: UIViewController {
             changeimgno = 0
                } //最後まで行ったら最初の画像に
                season.image = imagename[changeimgno]
+
     }
-           
+    
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             let resultViewController:ResultViewController = segue.destination as! ResultViewController
             
-            resultViewController.show = season.image!
+          resultViewController.show = season.image!
             self.timer_sec = 0
             
         if self.timer != nil {
            self.timer.invalidate()
            self.timer = nil
-               
-    }
+                changeButton.setTitle("再生", for: .normal)
+     goButton.isEnabled = true //進むボタンタップ可能
+     backButton.isEnabled = true //戻るボタンタップ可能
+     }
   }
 
-           @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        @IBAction func unwind(_ segue: UIStoryboardSegue) {
   }
 }
